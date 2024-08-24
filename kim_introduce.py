@@ -7,6 +7,7 @@ class MyName:
         print('안녕하세요')
         print(f'{self.name}입니다')
         print(f'{self.school}')
-        
+
 object1 = MyName('유경','이화')
 object1.introduce()
+print('class 생성 완료')
