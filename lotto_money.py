@@ -8,13 +8,13 @@ class money():
     def validate(self, list): 
         self.list = list
 
-        # list[0] = number_correct
-        # list[1] = number_bonus
+        number_correct = list[0]
+        number_bonus = list[1]
 
-        if list[0] == 6 : 
+        if number_correct == 6 : 
             print ("1등입니다. 500만원을 수령하세요.")
-        elif list[1] == 5 : 
-            if list[1] == 1 : 
+        elif number_bonus == 5 : 
+            if number_bonus == 1 : 
                 print ("2등입니다. 100만원을 수령하세요.")
             else : 
                 print ("3등입니다. 20만원을 수령하세요.")   
