@@ -1,7 +1,7 @@
 import random
 
 # 로또 번호 생성
-lotto_num=random.sample(range(1,46),6)
+lotto_num=random.sample(range(1,46),7)
 print("정답", lotto_num)
 
 # 사용자 로또 입력 받기
