@@ -2,8 +2,8 @@
 # 상금 금액 책정해서 output 만들기
 
 class money():
-    def __init__(self, number):
-        self.number = number
+    def __init__(self):
+        pass
 
     def validate(self, list): 
         self.list = list
