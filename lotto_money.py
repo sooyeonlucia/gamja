@@ -13,7 +13,7 @@ class money():
 
         if number_correct == 6 : 
             print ("1등입니다. 500만원을 수령하세요.")
-        elif number_bonus == 5 : 
+        elif number_correct == 5 : 
             if number_bonus == 1 : 
                 print ("2등입니다. 100만원을 수령하세요.")
             else : 
